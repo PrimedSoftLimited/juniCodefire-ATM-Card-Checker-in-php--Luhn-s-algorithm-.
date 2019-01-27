@@ -1,0 +1,54 @@
+.header_sty {
+	text-align: center;
+	color: grey;
+	font-size: 25px;
+	font-weight: bold;
+}
+#display_atm_type {
+	width: 50%;
+	margin: auto;
+	height: 60px;
+	font-size: 15px;
+}
+#numb_style {
+	width: 95%;
+	height: 30px;
+	margin: auto;
+}
+#display_input_number {
+	width: 100px;
+	height: 30px;
+	color:black;
+	font-weight: bold;
+}
+#display_callback_msg {
+	width: 50%;
+	margin: auto;
+	height: auto;
+	font-size: 15px;
+}
+#form_box {
+	width: 50%;
+	height: 200px;
+	background: #e6e6e6;
+	margin: auto;
+}
+#atm_input {
+	width: 80%;
+	margin: auto;
+}
+#atm_submit {
+	width: 20%;
+	margin: auto;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:768px) {
+	#form_box {
+	width: 100%;
+}
+#display_atm_type {
+	width: 100%;
+}
+}
